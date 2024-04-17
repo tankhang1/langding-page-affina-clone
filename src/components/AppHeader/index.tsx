@@ -26,7 +26,12 @@ import NavItemMenu from "./components/NavItemMenu";
 const AppHeader = () => {
   const isMobile = useMediaQuery(`(max-width: ${em(750)})`);
   return (
-    <Flex justify={"space-between"} px={"md"} py={"lg"}>
+    <Flex
+      justify={"space-between"}
+      className="sticky top-0 z-50 backdrop-blur-sm bg-white/40"
+      px={"md"}
+      py={"lg"}
+    >
       <Group gap={rem(44)}>
         <Image
           src={LogoAffina}

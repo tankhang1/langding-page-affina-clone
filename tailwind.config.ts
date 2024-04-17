@@ -18,6 +18,15 @@ const config: Config = {
           "50": "rgba(0, 0, 0, 0.5)",
         },
       },
+      keyframes: {
+        fadeIn: {
+          "0": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        "fade-in": "fadeIn 10s ease-in-out",
+      },
     },
   },
   plugins: [],

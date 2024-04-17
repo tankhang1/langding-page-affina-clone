@@ -16,7 +16,7 @@ import COLORS from "@/utils/config/color";
 
 const NavMenu = () => {
   return (
-    <Group p={"md"} mt={"md"} w={"100%"}>
+    <Group p={"md"} mt={"md"} wrap="wrap">
       <Stack>
         <Text fw={700} c={COLORS.Nav_Item} fs={rem(16)} tt={"uppercase"}>
           Dành cho Cá Nhân
